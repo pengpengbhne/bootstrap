@@ -1,0 +1,238 @@
+.btn-base-padding{
+	padding-right:2px;
+}
+.base-color{
+	background-color: #3DC7BE;
+  	border-color: #3DC7BE;
+}
+
+.btn-base {
+  	color: #fff;
+  	background-color: #3DC7BE;
+  	border-color: #3DC7BE;
+	border-radius:6px;
+	margin-left:3px;
+}
+.btn-base:focus,
+.btn-base.focus {
+  color: #fff;
+  background-color: #3DC7EE;
+  border-color: #3DC7BE;
+}
+.btn-base:hover {
+  color: #fff;
+  background-color: #3DC7BE;
+  border-color: #3DC7BE;
+}
+.btn-base:active,
+.btn-base.active,
+.open > .dropdown-toggle.btn-base {
+  color: #fff;
+  background-color: #3DC7BE;
+  border-color: #3DC7BE;
+}
+.btn-base:active:hover,
+.btn-base.active:hover,
+.open > .dropdown-toggle.btn-base:hover,
+.btn-base:active:focus,
+.btn-base.active:focus,
+.open > .dropdown-toggle.btn-base:focus,
+.btn-base:active.focus,
+.btn-base.active.focus,
+.open > .dropdown-toggle.btn-base.focus {
+  color: #fff;
+  background-color: #3DC7BE;
+  border-color: #3DC7BE;
+}
+.btn-base:active,
+.btn-base.active,
+.open > .dropdown-toggle.btn-base {
+  background-image: none;
+}
+.btn-base.disabled:hover,
+.btn-base[disabled]:hover,
+fieldset[disabled] .btn-base:hover,
+.btn-base.disabled:focus,
+.btn-base[disabled]:focus,
+fieldset[disabled] .btn-base:focus,
+.btn-base.disabled.focus,
+.btn-base[disabled].focus,
+fieldset[disabled] .btn-base.focus {
+  background-color: #3DC7BE;
+  border-color: #3DC7BE;
+}
+.btn-base .badge {
+  color: #3DC7BE;
+  background-color: #fff;
+}
+/* 大按钮 */
+.btn-xm-base{
+	width:160px;
+  	height:30px;
+}
+/*中按钮  */
+.btn-md-base{
+	width:80px;
+	height:18px;
+	color:#fff;
+	font-size:12px;
+  	font-weight:400;
+  	padding-top:0px;
+  	padding-left:5px;
+}
+/* 小按钮 */
+.btn-sm-base{
+	width:50px;
+	height:18px;
+  	color: #fff;
+  	font-size:12px;
+  	font-weight:400;
+	padding:0 0;
+  	text-align: center;
+}
+
+
+
+
+
+
+
+
+/* 取消日期的input border-right */
+.remove-border{
+	border-right: none;
+}
+/* lable字体样式  */
+.label-font{
+	font-size:12px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	color:rgba(153,153,153,1);
+}
+/* 设置input */
+.form-input{
+	width:240px;
+	height:30px;
+	padding:2px 6px;
+	background:rgba(240,240,240,1);
+}
+.select-info{
+	font-size:12px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	color:rgba(153,153,153,1);
+}
+/* 悬浮行变色 */
+.table-hover > tbody > tr:hover {
+  background-color: #DAFFFD;
+}
+.pagination > .active > a, 
+.pagination > .active > span, 
+.pagination > .active > a:hover, 
+.pagination > .active > span:hover, 
+.pagination > .active > a:focus, 
+.pagination > .active > span:focus {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #3DC7BE;
+    border-color: #3DC7BE;
+}
+.pagination > li > a, 
+.pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.4285;
+    color: #000;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.pagination > li > a:hover, 
+.pagination > li > span:hover, 
+.pagination > li > a:focus, 
+.pagination > li > span:focus {
+    z-index: 2;
+    color: #3DC7BE;
+    background-color: #eee;
+    border-color: #ddd;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
+    background-color: #3DC7BE;
+    background-image: none;
+   
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-color: #fff;
+    background-image: none;
+    color:#3DC7BE;
+}
+.datetimepicker table tr td.disabled,
+.datetimepicker table tr td.disabled:hover {
+    background: 0;
+    color: red;
+    cursor: default;
+}
+.datetimepicker table tr td.active:active, 
+.datetimepicker table tr td.active:hover:active, 
+.datetimepicker table tr td.disabled.active:active, 
+.datetimepicker table tr td.disabled.active:hover:active, 
+.datetimepicker table tr td.active.active, 
+.datetimepicker table tr td.active.active:hover, 
+.datetimepicker table tr td.active.disabled.active, 
+.datetimepicker table tr td.active.disabled.active:hover {
+    background-color: #3DC7BE;
+}
+.datetimepicker table tr td.today, 
+.datetimepicker table tr td.today:hover, 
+.datetimepicker table tr td.disabled.today, 
+.datetimepicker table tr td.disabled.today:hover {
+    background-image: none;
+
+}
+.datetimepicker table tr td.active, 
+.datetimepicker table tr td.active:hover, 
+.datetimepicker table tr td.disabled.active, 
+.datetimepicker table tr td.disabled.active:hover {
+    background-color: #3DC7BE;
+    background-image: none;
+}
+.datetimepicker table tr td.day:hover {
+    background: #DAFFFD;
+    cursor: pointer;
+}
+.datetimepicker table tr td span:hover {
+    background: #DAFFFD;
+}
+.datetimepicker thead tr:first-child th:hover, 
+.datetimepicker tfoot th:hover {
+    background: #DAFFFD;
+}
+
+.datetimepicker table tr td span.active:active, 
+.datetimepicker table tr td span.active:hover:active, 
+.datetimepicker table tr td span.disabled.active:active, 
+.datetimepicker table tr td span.disabled.active:hover:active, 
+.datetimepicker table tr td span.active.active, 
+.datetimepicker table tr td span.active.active:hover, 
+.datetimepicker table tr td span.active.disabled.active, 
+.datetimepicker table tr td span.active.disabled.active:hover {
+    background-color: #3DC7BE;
+}
+.datetimepicker table tr td span.active, 
+.datetimepicker table tr td span.active:hover, 
+.datetimepicker table tr td span.disabled.active, 
+.datetimepicker table tr td span.disabled.active:hover {
+    background-color: #3DC7BE;
+    background-image: none;
+}
+/* 今天的背景颜色 */
+.datetimepicker table tr td.today, .datetimepicker table tr td.today:hover, .datetimepicker table tr td.disabled.today, .datetimepicker table tr td.disabled.today:hover {
+    background-color: #fde19a;
+    background-image:none;
+}
+
+

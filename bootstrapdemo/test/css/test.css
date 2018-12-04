@@ -1,0 +1,45 @@
+.minwidth{
+	min-width:1146px;
+}
+.form-inner{
+	margin-left:10px;
+}
+.form-lable{
+	color:#808080;
+}
+.special {
+  	font-size:12px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	color:rgba(153,153,153,1);
+}
+
+.remove-group{
+	padding-left:15px;
+	padding-right:15px;
+}
+[class*='col-'].input-group {
+    float: none;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.date-remove{
+	color:#999999;
+}
+.form-search{
+	width:70px;
+	height:30px;
+}
+.form-alert{
+	width:120px;
+	height:30px;
+}
+.form-del{
+	width:100px;
+	height:30px;
+}
+.toolbar-edit{
+	margin-left:5px;
+}
+
